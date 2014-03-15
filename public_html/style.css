@@ -1,0 +1,82 @@
+body {
+    background: none repeat scroll 0% 0% rgb(89, 150, 180);
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    margin: 0 auto;
+    width:310px;
+}
+.topbar{
+    height: auto;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    font-family: Arial;
+}
+.topbox{
+    width:310px;
+    /*height: 195px;*/
+}
+.text {
+    font-family: Arial;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px 0px;
+}
+
+.disclaimer {
+    clear: both;
+    font-family: Arial;
+    font-size: 12px;
+    margin: 20px auto;
+    width: 100%;
+    color: inherit;
+    text-align: justify;
+}
+.disclaimer a {
+    color: rgb(255, 255, 255);
+}
+.phone{
+    border: 1px solid rgb(187, 187, 187);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: normal;
+    height: 24px;
+    width: 80%;
+    margin: 5px auto;
+    text-align: center;
+    display: block;
+}
+.legal {
+    font-size: 10px;
+    text-align: left;
+    font-weight: normal;
+    width: 95%;
+    margin: 0px auto;
+}
+
+.continueBtn {
+    color: #FFF;
+    border-radius: 10px;
+    border: none;
+    font-weight: normal;
+    font-size: 20px !important;
+    height: 30px !important;
+    line-height: 30px;
+    width: 80%;
+    background: linear-gradient(to bottom, rgb(78, 248, 90) 0%, rgb(0, 147, 9) 100%) repeat scroll 0% 0% transparent;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, rgb(78, 248, 90) 0%, rgb(0, 147, 9) 100%);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8952b', endColorstr='#bb7020',GradientType=0 );
+    text-shadow: 1px 1px 2px #000;
+    margin:5px auto;
+    display: inline-block;
+    text-decoration: none;
+}
